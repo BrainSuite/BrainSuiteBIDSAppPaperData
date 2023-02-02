@@ -34,7 +34,7 @@ read -d '' usage <<EOF
   nii2int16 : convert nifti to int16 (nii2int16)
   Authored by Anand A. Joshi, Signal and Image Processing Institute
   Department of Electrical Engineering, Viterbi School of Engineering, USC
-  website: https://bitbucket.org/brainsuite/bfp/src/a851ada6d9006ca2b01fca38447e31caebbc1a7b/docs/?at=master
+  website: https://github.com/ajoshiusc/bfp
   
   Usage: nii2int16 in_nii out_nii normz 
 
