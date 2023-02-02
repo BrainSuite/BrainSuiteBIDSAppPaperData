@@ -3,10 +3,10 @@ Our recently submitted abstract and manuscript demonstrate the use of the BrainS
 
 This repository contains the additional files necessary to perform the full set of analyses in the abstract and paper. The directories in this repository include:
 
-* demogTSV
-* modelspec
-* preprocspecs
-* rescale
+* demogTSV: a TSV file containing participant-level measurements (i.e., age, sex, etc.) and other variables required to reproduce the analyses performed in the paper. 
+* modelspec: JSON files containing the statistical models performed in the paper. 
+* preprocspecs: JSON files containing the participant-level preprocessing parameters used in the paper.
+* rescale: scripts and programs required for rescaling the original dataset, as done in the paper. 
 
 The full imaging and demographic data are available from these two collections:
 [Amsterdam Open MRI Collection's Population Imaging of Psychology 1 (AOMIC-PIOP1)](https://openneuro.org/datasets/ds002785/versions/2.0.0) 
