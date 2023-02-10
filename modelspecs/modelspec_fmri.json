@@ -26,7 +26,7 @@
         "tsv_fname": "aomic-piop_10192021.tsv",
 		"file_ext": "_task-restingstate_bold.32k.GOrd.filt.mat",
 		"lentime": 480,
-		"matchT": 0,
+		"matchT": 1,
 		"stat_test": "atlas-linear" ,
 		"pw_pairs": 10000,
 		"pw_fdr": 0,
