@@ -3,7 +3,7 @@
     "Global Settings": {
       "cacheFolder": ""
     },
-    "Structural": {
+    "Anatomical": {
       "autoParameters": 1,
       "diffusionIterations": 3,
       "diffusionConstant": 25,
