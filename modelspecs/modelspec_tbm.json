@@ -2,7 +2,7 @@
 	"BrainSuite": {
 
 	  "Structural":{
-        "tsv_fname": "aomic-piop_10192021.tsv",
+        "tsv_fname": "/path/to/BrainSuiteBIDSAppPaperData/demogTSV/aomic-piop_06202023.tsv",
         "measure": "tbm",
         "test": "anova",
         "main_effect": "ravenscore",

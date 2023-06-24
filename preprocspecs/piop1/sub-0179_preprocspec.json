@@ -4,17 +4,17 @@
             "cacheFolder": ""
         },
         "Anatomical": {
-            "autoParameters": 1,
+            "autoParameters": 0,
             "prescale": 1,
-            "diffusionIterations": 3,
-            "diffusionConstant": 25,
-            "edgeDetectionConstant": 0.64,
+            "diffusionIterations": 1,
+            "diffusionConstant": 30,
+            "edgeDetectionConstant": 0.58,
             "skipBSE": 0,
             "iterativeMode": 0,
             "spatialPrior": 0.1,
             "costFunction": 0,
             "useCentroids": 1,
-            "linearConvergence": 0.01,
+            "linearConvergence": 0.1,
             "warpConvergence": 100,
             "warpLevel": 5,
             "tissueFractionThreshold": 50.0,
@@ -72,7 +72,7 @@
             "RunDetrend": 1,
             "RunNSR": 1,
             "SimRef": 1,
-            "uscrigid_similarity": "cr",
+            "uscrigid_similarity": "inversion",
             "scbPath": "/output/SCB.mat",
             "T1mask": 1
         }

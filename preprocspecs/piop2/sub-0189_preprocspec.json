@@ -14,7 +14,7 @@
             "spatialPrior": 0.1,
             "costFunction": 0,
             "useCentroids": 1,
-            "linearConvergence": 0.01,
+            "linearConvergence": 0.1,
             "warpConvergence": 100,
             "warpLevel": 5,
             "tissueFractionThreshold": 50.0,
@@ -72,7 +72,7 @@
             "RunDetrend": 1,
             "RunNSR": 1,
             "SimRef": 1,
-            "uscrigid_similarity": "cr",
+            "uscrigid_similarity": "inversion",
             "scbPath": "/output/SCB.mat",
             "T1mask": 1
         }

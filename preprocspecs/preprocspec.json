@@ -1,10 +1,11 @@
 {
 	"BrainSuite": {
-		"Global Settings":{
-		"cacheFolder": ""
+		"Global Settings": {
+			"cacheFolder": ""
 		},
 		"Anatomical": {
 			"autoParameters": 1,
+			"prescale": 1,
 			"diffusionIterations": 3,
 			"diffusionConstant": 25,
 			"edgeDetectionConstant": 0.64,
@@ -13,7 +14,7 @@
 			"spatialPrior": 0.1,
 			"costFunction": 0,
 			"useCentroids": 1,
-			"linearConvergence": 0.1,
+			"linearConvergence": 0.01,
 			"warpConvergence": 100,
 			"warpLevel": 5,
 			"tissueFractionThreshold": 50.0,
@@ -21,6 +22,25 @@
 			"singleThread": 1
 		},
 		"Diffusion": {
+			"fsleddy": 0,
+			"indexFile": "",
+			"acqpFile": "",
+			"flm": "quadratic",
+			"slm": "none",
+			"fep": 0,
+			"interp": "spline",
+			"nvoxhp": 1000,
+			"fudge_factor": 10,
+			"dont_sep_offs_move": 0,
+			"dont_peas": 0,
+			"niter": 5,
+			"eddy_final_resamp": "jac",
+			"repol": 0,
+			"eddy_num_threads": 1,
+			"is_shelled": 0,
+			"useDerivatives": 0,
+			"correctedOutputDir": "",
+			"correctedOutputSuffix": "",
 			"skipDistortionCorr": 0,
 			"phaseEncodingDirection": "y",
 			"echoSpacing": "",
@@ -37,9 +57,7 @@
 			"smoothVol": 3.0
 		},
 		"Functional": {
-			"task-name": [
-				"restingstate"
-			],
+			"task-name": ["restingstate"],
 			"TR": 2,
 			"EnabletNLMPdfFiltering": 1,
 			"fpr": 0.001,
@@ -53,10 +71,10 @@
 			"BPoption": 1,
 			"RunDetrend": 1,
 			"RunNSR": 1,
+			"SimRef": 1,
 			"uscrigid_similarity": "inversion",
 			"scbPath": "/output/SCB.mat",
-			"T1mask": 1,
-			"SimRef": 1
+			"T1mask": 1
 		}
 	}
 }

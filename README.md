@@ -6,7 +6,6 @@ This repository contains the additional files necessary to perform the full set 
 * demogTSV: a TSV file containing participant-level measurements (i.e., age, sex, etc.) and other variables required to reproduce the analyses performed in the paper. 
 * modelspec: JSON files containing the statistical models performed in the paper. 
 * preprocspecs: JSON files containing the participant-level preprocessing parameters used in the paper.
-* rescale: scripts and programs required for rescaling the original dataset, as done in the paper. The rescaling matlab code (nii2int16.m, nii2int16, and nii2int16.sh) are from [BFP](https://github.com/ajoshiusc/bfp) and provided under a (GPL-2.0-only license)[https://spdx.org/licenses/GPL-2.0-only.html].
 
 The full imaging and demographic data are available from these two collections:
 [Amsterdam Open MRI Collection's Population Imaging of Psychology 1 (AOMIC-PIOP1)](https://openneuro.org/datasets/ds002785/versions/2.0.0) 
