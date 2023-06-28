@@ -21,7 +21,7 @@
         "maskfile": "",
         "atlas": "",
         "roimeas": "",
-        "dbmmeas": "" ,
+        "dbameas": "" ,
         "exclude_col": "Fonly",
         "out_dir": "tbm_anova_F"},
 	"Functional":{

@@ -2,7 +2,7 @@
 	"BrainSuite": {
 	  "Structural":{
         "tsv_fname": "/path/to/BrainSuiteBIDSAppPaperData/demogTSV/aomic-piop_06202023.tsv",
-        "measure": "dbm",
+        "measure": "dba",
 		"test": "ttest",
 		"main_effect": "sex",
 		"covariates": [ "age", "scanner" ],
@@ -18,9 +18,9 @@
 		"maskfile": "",
 		"atlas": "",
 		"roimeas": "",
-		"dbmmeas": "FA" ,
+		"dbameas": "FA" ,
 		"exclude_col": "Exclude",
-	  	"out_dir": "dbm_ttest_F"},
+	  	"out_dir": "dba_ttest_F"},
 
 	"Functional":{
         "tsv_fname": "",

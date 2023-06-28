@@ -20,7 +20,7 @@
         "maskfile": "",
         "atlas": "",
         "roimeas": "gmthickness",
-        "dbmmeas": "" ,
+        "dbameas": "" ,
         "exclude_col": "Fonly",
         "out_dir": "roi_anova_F"},
 	"Functional":{

@@ -2,7 +2,7 @@
 	"BrainSuite": {
 	  "Structural":{
         "tsv_fname": "/path/to/BrainSuiteBIDSAppPaperData/demogTSV/aomic-piop_06202023.tsv",
-        "measure": "cbm",
+        "measure": "sba",
 		"test": "anova",
 		"main_effect": "ravenscore",
 		"covariates": [
@@ -20,9 +20,9 @@
 		"maskfile": "",
 		"atlas": "",
 		"roimeas": "",
-		"dbmmeas": "" ,
+		"dbameas": "" ,
 		"exclude_col": "Fonly",
-	  	"out_dir": "cbm_anova_F"},
+	  	"out_dir": "sba_anova_F"},
 
 	"Functional":{
         "tsv_fname": "",
