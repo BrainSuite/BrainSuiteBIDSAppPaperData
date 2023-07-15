@@ -6,6 +6,7 @@ This repository contains the additional files necessary to perform the full set 
 * demogTSV: a TSV file containing participant-level measurements (i.e., age, sex, etc.) and other variables required to reproduce the analyses performed in the paper. 
 * modelspec: JSON files containing the statistical models performed in the paper. 
 * preprocspecs: JSON files containing the participant-level preprocessing parameters used in the paper.
+* eddyPrep: Two text files required for running [FSL's eddy](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy>) during participant-level processing. These files contain information regarding acquisition parameters for diffusion MRI data.
 
 The full imaging and demographic data are available from these two collections:
 [Amsterdam Open MRI Collection's Population Imaging of Psychology 1 (AOMIC-PIOP1)](https://openneuro.org/datasets/ds002785/versions/2.0.0) 
